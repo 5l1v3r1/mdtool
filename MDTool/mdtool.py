@@ -34,7 +34,7 @@ def change():
 
 os.system('clear')
 print(' __  __ ____ _____           _                               ')
-print('|  \/  |  _ \_   _|__   ___ | |    Welcome to MDTool > V5.3  ')
+print('|  \/  |  _ \_   _|__   ___ | |    Welcome to MDTool > V5.5  ')
 print('| |\/| | | | || |/ _ \ / _ \| | --> MADE BY Rivan Juthani <--')
 print('| |  | | |_| || | (_) | (_) | | --> http://mdtool.com/<--')
 print('|_|  |_|____/ |_|\___/ \___/|_| Please read README.md before use')
@@ -68,7 +68,7 @@ while ecount == 0:
 		ecount = 0
 		os.system('clear')
 		print(' __  __ ____ _____           _                               ')
-		print('|  \/  |  _ \_   _|__   ___ | |    Welcome to MDTool > V5.4  ')
+		print('|  \/  |  _ \_   _|__   ___ | |    Welcome to MDTool > V5.5  ')
 		print('| |\/| | | | || |/ _ \ / _ \| | --> MADE BY Rivan Juthani <--')
 		print('| |  | | |_| || | (_) | (_) | | --> http://mdtool.com/<--')
 		print('|_|  |_|____/ |_|\___/ \___/|_| Please read README.md before use')
@@ -80,7 +80,7 @@ while ecount == 0:
 	if usrinput == 'speedtest':
 		ecount = 0
 		os.system('clear')
-		scriptplayg
+		scriptplayg()
 		print(' Starting speedtest-cli...')
 		os.system('sudo python resources/speedtest/speedtest.py')
 		time.sleep(5)
