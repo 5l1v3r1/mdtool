@@ -11,11 +11,9 @@
 
 ### TODO
 
-KEY : $ - Done; x - Not done
-
-- [$] Remove additional dependencies
-- [x] Add support for both python 3 and 2
-- [x] Create a dependencies-remover script (though there is only one thing you need to install!)
+- [x] Remove additional dependencies
+- [ ] Add support for both python 3 and 2
+- [ ] Create a dependencies-remover script (though there is only one thing you need to install!)
 
 ## Contributing
 
