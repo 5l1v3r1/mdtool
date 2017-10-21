@@ -87,10 +87,10 @@ while ecount == 0:
 	if usrinput == 'sqlmap':
 		ecount = 0
 		os.system('clear')
-		scriptplayg
+		scriptplayg()
 		print('SORRY THIS COMMAND IS STILL UNDERMAKING: Type help to get a list of commands you can use...')
 	if usrinput == 'clear':
 		ecount = 0
 		os.system('clear')
-		scriptplayg
+		scriptplayg()
 errorcheck()
