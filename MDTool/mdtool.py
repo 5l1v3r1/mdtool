@@ -1,3 +1,6 @@
+/// MADE BY RIVAN JUTHANI
+/// COPYRIGHT 2017 RIVAN JUTHANI, PLEASE GIVE CREDIT!
+
 
 # imports
 
@@ -52,10 +55,12 @@ while ecount == 0:
 		os.system('clear')
 		print('----> Welcome to HELP BOX')
 		print('	-->	Command : What it does')
-		print('		help : Shows this help box')
-		print('		sqlmap : Starts sqlmap on the playground')
-		print('		speedtest : Show the internet;s speed on the playground')
-		print('		exit : Exits the playground and the script; returns to the terminal')
+		print('		(M)  help : Shows this help box')
+		print('		(NM) sqlmap : Starts sqlmap on the playground')
+		print('		(M)  speedtest : Show the internet;s speed on the playground')
+		print('		(M)  exit : Exits the playground and the script; returns to the terminal')
+		print('		(M)  clear : Clears the screen and displays the playground ST page logo')
+		print(' KEY : (M) - made (NM) - not made')
 		print('  Waiting 5 seconds')
 		print('[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]')
 		time.sleep(5)
@@ -63,7 +68,7 @@ while ecount == 0:
 		ecount = 0
 		os.system('clear')
 		print(' __  __ ____ _____           _                               ')
-		print('|  \/  |  _ \_   _|__   ___ | |    Welcome to MDTool > V5.3  ')
+		print('|  \/  |  _ \_   _|__   ___ | |    Welcome to MDTool > V5.4  ')
 		print('| |\/| | | | || |/ _ \ / _ \| | --> MADE BY Rivan Juthani <--')
 		print('| |  | | |_| || | (_) | (_) | | --> http://mdtool.com/<--')
 		print('|_|  |_|____/ |_|\___/ \___/|_| Please read README.md before use')
@@ -75,4 +80,17 @@ while ecount == 0:
 	if usrinput == 'speedtest':
 		ecount = 0
 		os.system('clear')
+		scriptplayg
+		print(' Starting speedtest-cli...')
+		os.system('sudo python resources/speedtest/speedtest.py')
+		time.sleep(5)
+	if usrinput == 'sqlmap':
+		ecount = 0
+		os.system('clear')
+		scriptplayg
+		print('SORRY THIS COMMAND IS STILL UNDERMAKING: Type help to get a list of commands you can use...')
+	if usrinput == 'clear':
+		ecount = 0
+		os.system('clear')
+		scriptplayg
 errorcheck()
